@@ -1,7 +1,7 @@
 <script>
   import CtAs from "./CTAs.svelte";
   import Header from "./Header.svelte";
-  import Sectionwrapper from "./SectionWrapper.svelte";
+  import SectionWrapper from "./SectionWrapper.svelte";
   import Stars from "./Stars.svelte";
 </script>
 

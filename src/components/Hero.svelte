@@ -1,11 +1,11 @@
 <script>
   import CtAs from "./CTAs.svelte";
   import Header from "./Header.svelte";
-  import Sectionwrapper from "./Sectionwrapper.svelte";
+  import Sectionwrapper from "./SectionWrapper.svelte";
   import Stars from "./Stars.svelte";
 </script>
 
-<Sectionwrapper>
+<SectionWrapper>
   <Header></Header>
   <div
     class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14"
@@ -28,4 +28,4 @@
     <Stars></Stars>
     <CtAs></CtAs>
   </div>
-</Sectionwrapper>
+</SectionWrapper>

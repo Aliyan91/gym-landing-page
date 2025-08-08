@@ -1,5 +1,5 @@
 <script>
-  import Sectionwrapper from "./SectionWrapper.svelte";
+  import Sectionwrapper from "./Sectionwrapper.svelte";
   let faqs = [
     {
       question: "What is Swoley Moley?",

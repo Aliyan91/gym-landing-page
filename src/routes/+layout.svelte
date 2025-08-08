@@ -76,11 +76,9 @@
   </div>
 {/if}
 {@render children?.()}
-<Footer />
+
 
 <svelte:window bind:scrollY={y} bind:outerHeight />
 <svelte:head>
   <link rel="icon" href={favicon} />
 </svelte:head>
-
-{@render children?.()}
